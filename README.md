@@ -38,7 +38,7 @@ Gameover:
 ### Demo video
 Watch on Youtube: 
 
-[![Watch on Youtube!](https://img.youtube.com/vi/UcwJONlfsrk/maxresdefault.jpg)](https://www.youtube.com/watch?v=UcwJONlfsrk)
+[![Watch on Youtube!](https://img.youtube.com/vi/UcwJONlfsrk/hqdefault.jpg)](https://www.youtube.com/watch?v=UcwJONlfsrk)
 
 
 ### Program flowchart
@@ -54,7 +54,7 @@ Watch on Youtube:
 
 
 <a name="acknowledgement"></a>
-#Acknowledgement
+# Acknowledgement
 Tool for converting between images and byte arrays: https://javl.github.io/image2cpp/. Configure as below to display properly on LCD:
 - Background color: Black
 - Invert image colors: Yes
