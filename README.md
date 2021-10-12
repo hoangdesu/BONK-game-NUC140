@@ -19,21 +19,21 @@
 
 ### Game states
 Welcome screen:
-<img src="./screenshots/welcome.png" alt="Welcome screen" width="60%">
+
+<img src="./screenshots/welcome.jpg" alt="Welcome screen" width="60%">
 
 Tutorial:
-<img src="./screenshots/tutorial.png" alt="Tutorial screen" width="60%">
+
+<img src="./screenshots/tutorial.jpg" alt="Tutorial screen" width="60%">
 
 Game play:
-<img src="./screenshots/play.png" alt="Play screen" width="60%">
+<img src="./screenshots/play.jpg" alt="Play screen" width="60%">
 
 Gameover:
-<img src="./screenshots/gameover.png" alt="Gameover" width="60%">
+<img src="./screenshots/gameover.jpg" alt="Gameover" width="60%">
 
 ### Demo video
-<figure class="video_container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/UcwJONlfsrk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UcwJONlfsrk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Program flowchart
 <img src="./sprites/Flowchart.png" alt="Flowchart" width="80%">
