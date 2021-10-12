@@ -49,7 +49,9 @@ Watch on Youtube:
 # How to run project?
 - Navigate to `src` folder
 - Open the `Bonk.uvprojx` project in Keil uVision 5. It should look something like this:
+
 <img src="./screenshots/keil.jpg" alt="Keil uVision5" width="90%">
+
 - Build the project and upload it to your board
 
 
