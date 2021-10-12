@@ -24,15 +24,15 @@ Welcome screen:
 
 Tutorial:
 
-<img src="./screenshots/tutorial.jpg" alt="Tutorial screen" width="60%">
+<img src="./screenshots/tutorial.jpg" alt="Tutorial screen" width="70%">
 
 Game play:
 
-<img src="./screenshots/play.jpg" alt="Play screen" width="60%">
+<img src="./screenshots/play.jpg" alt="Play screen" width="70%">
 
 Gameover:
 
-<img src="./screenshots/gameover.jpg" alt="Gameover" width="60%">
+<img src="./screenshots/gameover.jpg" alt="Gameover" width="70%">
 
 
 ### Demo video
