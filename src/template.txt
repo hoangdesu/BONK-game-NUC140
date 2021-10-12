@@ -1,0 +1,159 @@
+int main(void)
+{
+	STATES screen_state;
+	uint8_t pressed_key = 0, key_pad = 0;
+	//--------------------------------
+	//System initialization
+	//--------------------------------
+	System_Config();
+	//--------------------------------
+	//SPI3 initialization
+	//--------------------------------
+	SPI3_Config();
+	//--------------------------------
+	//LCD initialization
+	//--------------------------------
+	LCD_start();
+	LCD_clear();
+	//--------------------------------
+	//LCD static content
+	//--------------------------------
+
+	//--------------------------------
+	//LCD dynamic content
+	//--------------------------------
+	screen_state = welcome_screen;
+	while (1)
+	{
+		key_pad = KeyPadScanning();
+		switch (screen_state)
+		{
+		case welcome_screen:
+			LCD_clear();
+			printS_5x7(0, 0, "EEET2481 Door Lock System");
+			printS_5x7(32, 16, "- - - - - -");
+			printS_5x7(32, 32, "Please select:");
+			printS_5x7(2, 40, "1: Unlock");
+			printS_5x7(2, 52, "2: Change key");
+			switch (key_pad)
+			{
+			case 1:
+				LCD_clear();
+				printS_5x7(0, 0, "EEET2481 Door Lock System");
+				printS_5x7(4, 16, "Please Input Your Key! ");
+				printS_5x7(32, 40, "_ _ _ _ _ _");
+				check_required = 1;
+				screen_state = enter_password;
+				break;
+			case 2:
+				LCD_clear();
+				printS_5x7(0, 0, "EEET2481 Door Lock System");
+				printS_5x7(4, 16, "Please Input Your Key! ");
+				printS_5x7(32, 40, "_ _ _ _ _ _");
+				check_required = 2;
+				screen_state = enter_password;
+				break;
+			default:
+				break;
+			}
+			pre_key = key_pad;
+			SysTickDelay(1000000);
+			break;
+		case enter_password:
+			if (total_digits < 6)
+			{
+				if (key_pad != pre_key && pre_key == 0)
+				{
+					input_digits = input_digits * 10 + key_pad;
+					number = key_pad + 48;
+					printC_5x7(32 + total_digits * 10, 35, number);
+					SysTickDelay(1000000);
+					printC_5x7(32 + total_digits * 10, 35, 35);
+					total_digits++;
+				}
+				pre_key = key_pad;
+				SysTickDelay(500000);
+			}
+			else if (total_digits == 6)
+			{
+				if (input_digits == default_password && check_required == 1)
+				{
+					check_success = 1;
+					screen_state = success_screen;
+				}
+				else if ((input_digits != default_password && check_required == 1) || (input_digits != default_password && check_required == 2))
+				{
+					screen_state = wrong_screen;
+				}
+				else if (input_digits == default_password && check_required == 2)
+				{
+					LCD_clear();
+					screen_state = change_password;
+				}
+				input_digits = 0;
+				total_digits = 0;
+			}
+			break;
+		case change_password:
+			printS_5x7(0, 0, "EEET2481 Door Lock System");
+			printS_5x7(4, 16, "Please Input New Key! ");
+			printS_5x7(32, 40, "_ _ _ _ _ _");
+			if (total_digits < 6)
+			{
+				if (key_pad != pre_key && pre_key == 0)
+				{
+					input_digits = input_digits * 10 + key_pad;
+					number = key_pad + 48;
+					printC_5x7(32 + total_digits * 10, 35, number);
+					SysTickDelay(1000000);
+					printC_5x7(32 + total_digits * 10, 35, '#');
+					total_digits++;
+				}
+				pre_key = key_pad;
+				SysTickDelay(500000);
+			}
+			else if (total_digits == 6)
+			{
+				default_password = input_digits;
+				input_digits = 0;
+				total_digits = 0;
+				check_success = 2;
+				screen_state = success_screen;
+			}
+			break;
+		case wrong_screen:
+			LCD_clear();
+			printS_5x7(0, 0, "EEET2481 Door Lock System");
+			printS_5x7(4, 16, "Wrong Password! ");
+			printS_5x7(4, 32, "The system restarts");
+			printS_5x7(4, 42, "in 2 seconds");
+			printS_5x7(4, 56, "Thank you!");
+			SysTickDelay(12000000);
+			screen_state = welcome_screen;
+			break;
+
+		case success_screen:
+			LCD_clear();
+			if (check_success == 2)
+			{
+				printS_5x7(0, 0, "EEET2481 Door Lock System");
+				printS_5x7(4, 16, "Your key ");
+				printS_5x7(4, 32, "has been changed");
+				printS_5x7(4, 42, "######");
+				SysTickDelay(12000000);
+				screen_state = welcome_screen;
+			}
+			else if (check_success == 1)
+			{
+				printS_5x7(0, 0, "EEET2481 Door Lock System");
+				printS_5x7(4, 16, "Correct Password! ");
+				printS_5x7(32, 40, "Welcome Home");
+				screen_state = screen;
+			}
+			check_success = 0;
+			break;
+		default:
+			break;
+		}
+	}
+}

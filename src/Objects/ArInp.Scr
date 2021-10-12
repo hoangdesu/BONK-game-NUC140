@@ -1,0 +1,12 @@
+--create .\Objects\Bonk.lib
+.\objects\system_nuc100series.o
+.\objects\startup_nuc100series.o
+.\objects\clk.o
+.\objects\gpio.o
+.\objects\sys.o
+.\objects\sys_init.o
+.\objects\spi.o
+.\objects\seven_segment.o
+.\objects\lcd.o
+.\objects\scankey.o
+.\objects\main.o

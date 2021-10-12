@@ -1,0 +1,304 @@
+Dependencies for Project 'WhacAMole', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (C:\Keil_v5\Library\NUC100Series\Source\system_NUC100Series.c)(0x55531408)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I C:/Keil_v5/Library/CMSIS/Include -I C:/Keil_v5/Library/NUC1xx-LB_002/Include -I C:/Keil_v5/Library/NUC100Series/Include -I C:/Keil_v5/Library/NuMakerLib/Include -I C:/Keil_v5/Library/StdDriver/Include-I./RTE/_Target_1-IC:/Keil_v5/Packs/Nuvoton/NuMicro_DFP/1.3.12/Device/NUC100/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="530" -D_RTE_-o ./objects/system_nuc100series.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\NUC100Series\Include\NUC100Series.h)(0x56A7A192)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cm0.h)(0x55531408)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmInstr.h)(0x55531408)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmFunc.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC100Series\Include\system_NUC100Series.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SYS.h)(0x585D41E8)
+I (C:\Keil_v5\Library\StdDriver\Include\ADC.h)(0x56841D26)
+I (C:\Keil_v5\Library\StdDriver\Include\FMC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\GPIO.h)(0x566DED3C)
+I (C:\Keil_v5\Library\StdDriver\Include\I2C.h)(0x55B2451A)
+I (C:\Keil_v5\Library\StdDriver\Include\PWM.h)(0x56855D02)
+I (C:\Keil_v5\Library\StdDriver\Include\SPI.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CRC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\TIMER.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WDT.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WWDT.h)(0x5553140A)
+I (C:\Keil_v5\Library\StdDriver\Include\RTC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\UART.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\I2S.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CAN.h)(0x55BBBDF8)
+I (C:\Keil_v5\Library\StdDriver\Include\USBD.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PDMA.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PS2.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CLK.h)(0x56A7A154)
+I (C:\Keil_v5\Library\StdDriver\Include\ACMP.h)(0x55531408)
+F (C:\Keil_v5\Library\NUC100Series\Source\ARM\startup_NUC100Series.s)(0x568557E2)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Keil_v5/Packs/Nuvoton/NuMicro_DFP/1.3.12/Device/NUC100/Include-IC:/Keil_v5/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 530" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_nuc100series.o)
+F (C:\Keil_v5\Library\StdDriver\Source\clk.c)(0x5553140A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I C:/Keil_v5/Library/CMSIS/Include -I C:/Keil_v5/Library/NUC1xx-LB_002/Include -I C:/Keil_v5/Library/NUC100Series/Include -I C:/Keil_v5/Library/NuMakerLib/Include -I C:/Keil_v5/Library/StdDriver/Include-I./RTE/_Target_1-IC:/Keil_v5/Packs/Nuvoton/NuMicro_DFP/1.3.12/Device/NUC100/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="530" -D_RTE_-o ./objects/clk.o -MD)
+I (C:\Keil_v5\Library\NUC100Series\Include\NUC100Series.h)(0x56A7A192)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cm0.h)(0x55531408)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmInstr.h)(0x55531408)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmFunc.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC100Series\Include\system_NUC100Series.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SYS.h)(0x585D41E8)
+I (C:\Keil_v5\Library\StdDriver\Include\ADC.h)(0x56841D26)
+I (C:\Keil_v5\Library\StdDriver\Include\FMC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\GPIO.h)(0x566DED3C)
+I (C:\Keil_v5\Library\StdDriver\Include\I2C.h)(0x55B2451A)
+I (C:\Keil_v5\Library\StdDriver\Include\PWM.h)(0x56855D02)
+I (C:\Keil_v5\Library\StdDriver\Include\SPI.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CRC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\TIMER.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WDT.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WWDT.h)(0x5553140A)
+I (C:\Keil_v5\Library\StdDriver\Include\RTC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\UART.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\I2S.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CAN.h)(0x55BBBDF8)
+I (C:\Keil_v5\Library\StdDriver\Include\USBD.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PDMA.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PS2.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CLK.h)(0x56A7A154)
+I (C:\Keil_v5\Library\StdDriver\Include\ACMP.h)(0x55531408)
+F (C:\Keil_v5\Library\StdDriver\Source\gpio.c)(0x5553140A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I C:/Keil_v5/Library/CMSIS/Include -I C:/Keil_v5/Library/NUC1xx-LB_002/Include -I C:/Keil_v5/Library/NUC100Series/Include -I C:/Keil_v5/Library/NuMakerLib/Include -I C:/Keil_v5/Library/StdDriver/Include-I./RTE/_Target_1-IC:/Keil_v5/Packs/Nuvoton/NuMicro_DFP/1.3.12/Device/NUC100/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="530" -D_RTE_-o ./objects/gpio.o -MD)
+I (C:\Keil_v5\Library\NUC100Series\Include\NUC100Series.h)(0x56A7A192)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cm0.h)(0x55531408)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmInstr.h)(0x55531408)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmFunc.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC100Series\Include\system_NUC100Series.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SYS.h)(0x585D41E8)
+I (C:\Keil_v5\Library\StdDriver\Include\ADC.h)(0x56841D26)
+I (C:\Keil_v5\Library\StdDriver\Include\FMC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\GPIO.h)(0x566DED3C)
+I (C:\Keil_v5\Library\StdDriver\Include\I2C.h)(0x55B2451A)
+I (C:\Keil_v5\Library\StdDriver\Include\PWM.h)(0x56855D02)
+I (C:\Keil_v5\Library\StdDriver\Include\SPI.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CRC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\TIMER.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WDT.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WWDT.h)(0x5553140A)
+I (C:\Keil_v5\Library\StdDriver\Include\RTC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\UART.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\I2S.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CAN.h)(0x55BBBDF8)
+I (C:\Keil_v5\Library\StdDriver\Include\USBD.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PDMA.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PS2.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CLK.h)(0x56A7A154)
+I (C:\Keil_v5\Library\StdDriver\Include\ACMP.h)(0x55531408)
+F (C:\Keil_v5\Library\StdDriver\Source\sys.c)(0x5553140A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I C:/Keil_v5/Library/CMSIS/Include -I C:/Keil_v5/Library/NUC1xx-LB_002/Include -I C:/Keil_v5/Library/NUC100Series/Include -I C:/Keil_v5/Library/NuMakerLib/Include -I C:/Keil_v5/Library/StdDriver/Include-I./RTE/_Target_1-IC:/Keil_v5/Packs/Nuvoton/NuMicro_DFP/1.3.12/Device/NUC100/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="530" -D_RTE_-o ./objects/sys.o -MD)
+I (C:\Keil_v5\Library\NUC100Series\Include\NUC100Series.h)(0x56A7A192)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cm0.h)(0x55531408)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmInstr.h)(0x55531408)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmFunc.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC100Series\Include\system_NUC100Series.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SYS.h)(0x585D41E8)
+I (C:\Keil_v5\Library\StdDriver\Include\ADC.h)(0x56841D26)
+I (C:\Keil_v5\Library\StdDriver\Include\FMC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\GPIO.h)(0x566DED3C)
+I (C:\Keil_v5\Library\StdDriver\Include\I2C.h)(0x55B2451A)
+I (C:\Keil_v5\Library\StdDriver\Include\PWM.h)(0x56855D02)
+I (C:\Keil_v5\Library\StdDriver\Include\SPI.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CRC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\TIMER.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WDT.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WWDT.h)(0x5553140A)
+I (C:\Keil_v5\Library\StdDriver\Include\RTC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\UART.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\I2S.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CAN.h)(0x55BBBDF8)
+I (C:\Keil_v5\Library\StdDriver\Include\USBD.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PDMA.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PS2.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CLK.h)(0x56A7A154)
+I (C:\Keil_v5\Library\StdDriver\Include\ACMP.h)(0x55531408)
+F (C:\Keil_v5\Library\NuMakerLib\Source\SYS_init.c)(0x5C6E2E50)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I C:/Keil_v5/Library/CMSIS/Include -I C:/Keil_v5/Library/NUC1xx-LB_002/Include -I C:/Keil_v5/Library/NUC100Series/Include -I C:/Keil_v5/Library/NuMakerLib/Include -I C:/Keil_v5/Library/StdDriver/Include-I./RTE/_Target_1-IC:/Keil_v5/Packs/Nuvoton/NuMicro_DFP/1.3.12/Device/NUC100/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="530" -D_RTE_-o ./objects/sys_init.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\NUC100Series\Include\NUC100Series.h)(0x56A7A192)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cm0.h)(0x55531408)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmInstr.h)(0x55531408)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmFunc.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC100Series\Include\system_NUC100Series.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SYS.h)(0x585D41E8)
+I (C:\Keil_v5\Library\StdDriver\Include\ADC.h)(0x56841D26)
+I (C:\Keil_v5\Library\StdDriver\Include\FMC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\GPIO.h)(0x566DED3C)
+I (C:\Keil_v5\Library\StdDriver\Include\I2C.h)(0x55B2451A)
+I (C:\Keil_v5\Library\StdDriver\Include\PWM.h)(0x56855D02)
+I (C:\Keil_v5\Library\StdDriver\Include\SPI.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CRC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\TIMER.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WDT.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WWDT.h)(0x5553140A)
+I (C:\Keil_v5\Library\StdDriver\Include\RTC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\UART.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\I2S.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CAN.h)(0x55BBBDF8)
+I (C:\Keil_v5\Library\StdDriver\Include\USBD.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PDMA.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PS2.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CLK.h)(0x56A7A154)
+I (C:\Keil_v5\Library\StdDriver\Include\ACMP.h)(0x55531408)
+I (C:\Keil_v5\Library\NuMakerLib\Include\MCU_init.h)(0x5C6E2F3C)
+I (C:\Keil_v5\Library\NuMakerLib\Include\SYS_init.h)(0x5C6E25C2)
+F (C:\Keil_v5\Library\StdDriver\Source\spi.c)(0x5553140A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I C:/Keil_v5/Library/CMSIS/Include -I C:/Keil_v5/Library/NUC1xx-LB_002/Include -I C:/Keil_v5/Library/NUC100Series/Include -I C:/Keil_v5/Library/NuMakerLib/Include -I C:/Keil_v5/Library/StdDriver/Include-I./RTE/_Target_1-IC:/Keil_v5/Packs/Nuvoton/NuMicro_DFP/1.3.12/Device/NUC100/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="530" -D_RTE_-o ./objects/spi.o -MD)
+I (C:\Keil_v5\Library\NUC100Series\Include\NUC100Series.h)(0x56A7A192)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cm0.h)(0x55531408)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmInstr.h)(0x55531408)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmFunc.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC100Series\Include\system_NUC100Series.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SYS.h)(0x585D41E8)
+I (C:\Keil_v5\Library\StdDriver\Include\ADC.h)(0x56841D26)
+I (C:\Keil_v5\Library\StdDriver\Include\FMC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\GPIO.h)(0x566DED3C)
+I (C:\Keil_v5\Library\StdDriver\Include\I2C.h)(0x55B2451A)
+I (C:\Keil_v5\Library\StdDriver\Include\PWM.h)(0x56855D02)
+I (C:\Keil_v5\Library\StdDriver\Include\SPI.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CRC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\TIMER.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WDT.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WWDT.h)(0x5553140A)
+I (C:\Keil_v5\Library\StdDriver\Include\RTC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\UART.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\I2S.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CAN.h)(0x55BBBDF8)
+I (C:\Keil_v5\Library\StdDriver\Include\USBD.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PDMA.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PS2.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CLK.h)(0x56A7A154)
+I (C:\Keil_v5\Library\StdDriver\Include\ACMP.h)(0x55531408)
+F (C:\Keil_v5\Library\NUC1xx-LB_002\Source\Seven_Segment.c)(0x5538E1E2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I C:/Keil_v5/Library/CMSIS/Include -I C:/Keil_v5/Library/NUC1xx-LB_002/Include -I C:/Keil_v5/Library/NUC100Series/Include -I C:/Keil_v5/Library/NuMakerLib/Include -I C:/Keil_v5/Library/StdDriver/Include-I./RTE/_Target_1-IC:/Keil_v5/Packs/Nuvoton/NuMicro_DFP/1.3.12/Device/NUC100/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="530" -D_RTE_-o ./objects/seven_segment.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\NUC100Series\Include\NUC100Series.h)(0x56A7A192)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cm0.h)(0x55531408)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmInstr.h)(0x55531408)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmFunc.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC100Series\Include\system_NUC100Series.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SYS.h)(0x585D41E8)
+I (C:\Keil_v5\Library\StdDriver\Include\ADC.h)(0x56841D26)
+I (C:\Keil_v5\Library\StdDriver\Include\FMC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\GPIO.h)(0x566DED3C)
+I (C:\Keil_v5\Library\StdDriver\Include\I2C.h)(0x55B2451A)
+I (C:\Keil_v5\Library\StdDriver\Include\PWM.h)(0x56855D02)
+I (C:\Keil_v5\Library\StdDriver\Include\SPI.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CRC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\TIMER.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WDT.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WWDT.h)(0x5553140A)
+I (C:\Keil_v5\Library\StdDriver\Include\RTC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\UART.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\I2S.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CAN.h)(0x55BBBDF8)
+I (C:\Keil_v5\Library\StdDriver\Include\USBD.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PDMA.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PS2.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CLK.h)(0x56A7A154)
+I (C:\Keil_v5\Library\StdDriver\Include\ACMP.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC1xx-LB_002\Include\Seven_Segment.h)(0x5538E0E2)
+F (C:\Keil_v5\Library\NUC1xx-LB_002\Source\LCD.c)(0x614B40DE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I C:/Keil_v5/Library/CMSIS/Include -I C:/Keil_v5/Library/NUC1xx-LB_002/Include -I C:/Keil_v5/Library/NUC100Series/Include -I C:/Keil_v5/Library/NuMakerLib/Include -I C:/Keil_v5/Library/StdDriver/Include-I./RTE/_Target_1-IC:/Keil_v5/Packs/Nuvoton/NuMicro_DFP/1.3.12/Device/NUC100/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="530" -D_RTE_-o ./objects/lcd.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DE00B82)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5DE00B7C)
+I (C:\Keil_v5\Library\NUC100Series\Include\NUC100Series.h)(0x56A7A192)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cm0.h)(0x55531408)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmInstr.h)(0x55531408)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmFunc.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC100Series\Include\system_NUC100Series.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SYS.h)(0x585D41E8)
+I (C:\Keil_v5\Library\StdDriver\Include\ADC.h)(0x56841D26)
+I (C:\Keil_v5\Library\StdDriver\Include\FMC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\GPIO.h)(0x566DED3C)
+I (C:\Keil_v5\Library\StdDriver\Include\I2C.h)(0x55B2451A)
+I (C:\Keil_v5\Library\StdDriver\Include\PWM.h)(0x56855D02)
+I (C:\Keil_v5\Library\StdDriver\Include\SPI.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CRC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\TIMER.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WDT.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WWDT.h)(0x5553140A)
+I (C:\Keil_v5\Library\StdDriver\Include\RTC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\UART.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\I2S.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CAN.h)(0x55BBBDF8)
+I (C:\Keil_v5\Library\StdDriver\Include\USBD.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PDMA.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PS2.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CLK.h)(0x56A7A154)
+I (C:\Keil_v5\Library\StdDriver\Include\ACMP.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC1xx-LB_002\Include\LCD.h)(0x53D5884E)
+I (C:\Keil_v5\Library\NuMakerLib\Include\Font5x7.h)(0x51ABA71C)
+I (C:\Keil_v5\Library\NuMakerLib\Include\Font8x16.h)(0x5319BFBC)
+F (C:\Keil_v5\Library\NUC1xx-LB_002\Source\Scankey.c)(0x568576EA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I C:/Keil_v5/Library/CMSIS/Include -I C:/Keil_v5/Library/NUC1xx-LB_002/Include -I C:/Keil_v5/Library/NUC100Series/Include -I C:/Keil_v5/Library/NuMakerLib/Include -I C:/Keil_v5/Library/StdDriver/Include-I./RTE/_Target_1-IC:/Keil_v5/Packs/Nuvoton/NuMicro_DFP/1.3.12/Device/NUC100/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="530" -D_RTE_-o ./objects/scankey.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\NUC100Series\Include\NUC100Series.h)(0x56A7A192)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cm0.h)(0x55531408)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmInstr.h)(0x55531408)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmFunc.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC100Series\Include\system_NUC100Series.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SYS.h)(0x585D41E8)
+I (C:\Keil_v5\Library\StdDriver\Include\ADC.h)(0x56841D26)
+I (C:\Keil_v5\Library\StdDriver\Include\FMC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\GPIO.h)(0x566DED3C)
+I (C:\Keil_v5\Library\StdDriver\Include\I2C.h)(0x55B2451A)
+I (C:\Keil_v5\Library\StdDriver\Include\PWM.h)(0x56855D02)
+I (C:\Keil_v5\Library\StdDriver\Include\SPI.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CRC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\TIMER.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WDT.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WWDT.h)(0x5553140A)
+I (C:\Keil_v5\Library\StdDriver\Include\RTC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\UART.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\I2S.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CAN.h)(0x55BBBDF8)
+I (C:\Keil_v5\Library\StdDriver\Include\USBD.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PDMA.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PS2.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CLK.h)(0x56A7A154)
+I (C:\Keil_v5\Library\StdDriver\Include\ACMP.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC1xx-LB_002\Include\Scankey.h)(0x530B03B2)
+F (.\main.c)(0x614D978B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I C:/Keil_v5/Library/CMSIS/Include -I C:/Keil_v5/Library/NUC1xx-LB_002/Include -I C:/Keil_v5/Library/NUC100Series/Include -I C:/Keil_v5/Library/NuMakerLib/Include -I C:/Keil_v5/Library/StdDriver/Include-I./RTE/_Target_1-IC:/Keil_v5/Packs/Nuvoton/NuMicro_DFP/1.3.12/Device/NUC100/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="530" -D_RTE_-o ./objects/main.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\NUC100Series\Include\NUC100Series.h)(0x56A7A192)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cm0.h)(0x55531408)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5DE00B82)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmInstr.h)(0x55531408)
+I (C:\Keil_v5\Library\CMSIS\Include\core_cmFunc.h)(0x55531408)
+I (C:\Keil_v5\Library\NUC100Series\Include\system_NUC100Series.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SYS.h)(0x585D41E8)
+I (C:\Keil_v5\Library\StdDriver\Include\ADC.h)(0x56841D26)
+I (C:\Keil_v5\Library\StdDriver\Include\FMC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\GPIO.h)(0x566DED3C)
+I (C:\Keil_v5\Library\StdDriver\Include\I2C.h)(0x55B2451A)
+I (C:\Keil_v5\Library\StdDriver\Include\PWM.h)(0x56855D02)
+I (C:\Keil_v5\Library\StdDriver\Include\SPI.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CRC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\TIMER.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WDT.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\WWDT.h)(0x5553140A)
+I (C:\Keil_v5\Library\StdDriver\Include\RTC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\UART.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\I2S.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CAN.h)(0x55BBBDF8)
+I (C:\Keil_v5\Library\StdDriver\Include\USBD.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PDMA.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\SC.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\PS2.h)(0x55531408)
+I (C:\Keil_v5\Library\StdDriver\Include\CLK.h)(0x56A7A154)
+I (C:\Keil_v5\Library\StdDriver\Include\ACMP.h)(0x55531408)
+I (C:\Keil_v5\Library\NuMakerLib\Include\MCU_init.h)(0x5C6E2F3C)
+I (C:\Keil_v5\Library\NuMakerLib\Include\SYS_init.h)(0x5C6E25C2)
+I (C:\Keil_v5\Library\NUC1xx-LB_002\Include\LCD.h)(0x53D5884E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x5DE00B7C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5DE00B7A)
+I (sprites.h)(0x614D95BC)
+I (C:\Keil_v5\Library\NuMakerLib\Include\Draw2D.h)(0x569E0572)
+F (.\sprites.h)(0x614D95BC)()
