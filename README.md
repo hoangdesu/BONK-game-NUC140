@@ -14,7 +14,7 @@
 
 ### How to play
 * Try to hit Cheem the dog by pressing the corresponding keys on the keypad
-* You get 5 lives, don't get **BONKED!**
+* You get 5 lives, bonk the Cheems or you get **BONKED!**
 * Watch out! The Cheems will appear faster over time 😱
 
 ### Game states
