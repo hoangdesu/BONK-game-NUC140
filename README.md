@@ -20,7 +20,7 @@
 ### Game states
 Welcome screen:
 
-<img src="./screenshots/welcome.jpg" alt="Welcome screen" width="60%">
+<img src="./screenshots/welcome.jpg" alt="Welcome screen" width="100%">
 
 Tutorial:
 
