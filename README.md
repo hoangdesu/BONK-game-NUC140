@@ -27,13 +27,19 @@ Tutorial:
 <img src="./screenshots/tutorial.jpg" alt="Tutorial screen" width="60%">
 
 Game play:
+
 <img src="./screenshots/play.jpg" alt="Play screen" width="60%">
 
 Gameover:
+
 <img src="./screenshots/gameover.jpg" alt="Gameover" width="60%">
 
+
 ### Demo video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UcwJONlfsrk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Watch on Youtube: 
+
+[![Watch on Youtube!](https://img.youtube.com/vi/UcwJONlfsrk/maxresdefault.jpg)](https://www.youtube.com/watch?v=UcwJONlfsrk)
+
 
 ### Program flowchart
 <img src="./sprites/Flowchart.png" alt="Flowchart" width="80%">
