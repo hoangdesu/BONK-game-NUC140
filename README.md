@@ -73,7 +73,7 @@ Also I'd like to send my thanks to my teammates Thuận, Trung, Triều for help
 <a name="connect"></a>
 # Connect with me
 * My [Website](https://hoangdesu.com/)
-* MY [LinkedIn](https://www.linkedin.com/in/hoangdesu/)
+* My [LinkedIn](https://www.linkedin.com/in/hoangdesu/)
 * My [Facebook](https://www.facebook.com/Hoangdayo/)
 * My [Instagram](https://www.instagram.com/hoang.desu/)
 * You can shoot me an [email](mailto:hoangdesu@gmail.com) too
